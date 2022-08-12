@@ -1,0 +1,38 @@
+/**
+* Template Name: Folio - v4.0.1
+* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible {
+  background-color: #eaf0ce;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  vertical-align: bottom;
+  border: none;
+  text-align: left;
+  vertical-align: middle;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 1px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
