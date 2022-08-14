@@ -126,7 +126,7 @@
                 <img src="assets\img\portfolio\cmu_logo.jfif" alt="opps" width="70" height="70">
                 <img src="assets\img\portfolio\nitk_logo.png" alt="opps" width="70" height="70">
               <p class="separator">I am highly passionate about robotics and I enjoy learning about latest innovations
-                surrounding AI. I also like competitive coding and I have been active on hackerrank, leetcode and
+                surrounding AI. I also like competitive coding and I have been active on hackerrank, <a href = https://leetcode.com/JigarPatel>leetcode</a> and
                 codeforces.</p>
               <p class="separator">I like playing badminton and table-tennis. I like challenging myself with physical
                 and mental challenges.</p>
@@ -208,6 +208,7 @@
 
       <div class="container">
         <div class="companies">
+          <!-- NVIDIA -->
           <button type="button" class="collapsible">
             <h4>
               NVIDIA - TensorRT Team
@@ -223,14 +224,17 @@
             </h4>
           </button>
           <div class="content">
-            <h4>I interned in the NVIDIA's TensorRT team during the summer of 2022.</h4>
-            <h5>Wrote 7+ Safety Samples for NVIDIA's TensorRT's Drive OS 6.0.6</h5>
-            <h5>Contributed 4000+ lines of Safety certified code to TensorRT in C++.</h5>
+            <ul>
+              <li>
+                <h6>Implemented <strong>7+</strong> Safety Samples for NVIDIA's TensorRT's Drive OS 6.0.6</h6>
+              </li>
+              <li>
+                <h6>Contributed <strong>4000+</strong> lines of Safety certified code to TensorRT in C++.</h6>
+              </li>
+            </ul>            
           </div>
 
-          <div class="content">
-            <p>Lorem ipsum...</p>
-          </div>
+          <!-- NREC -->
           <button type="button" class="collapsible">
             <h4>
               NREC
@@ -246,8 +250,17 @@
             </h4>
           </button>
           <div class="content">
-            <p>I interned at NVIDIA in the TensorRT team from </p>
+            <ul>
+              <li>
+                <h6>Implemented motion planning algorithms for a fleet of autonomous UAVs with sensors onboard to optimize multiple target recognition and localization. </h6>
+              </li>
+              <li>
+                <h6>Implemented auction based bidding and planning for motion planning of multiple UAVs.</h6>
+              </li>
+            </ul>
           </div>
+
+          <!-- Magik Eye -->
           <button type="button" class="collapsible">
             <h4>
               Magik Eye
@@ -262,10 +275,21 @@
               </span>
             </h4>
           </button>
-          
           <div class="content">
-            <p>I internet at NVIDIA in the TensorRT team from </p>
+            <ul>
+              <li>
+                <h6>Contributed to the development, testing and documentation of MagikEye-SDK to extend 3D depth-sensor’s usage on multiple platforms viz. ROS, PCL, Open3D, and Unity; Developed production level, low-latency Python and C++ ROS and ROS2 packages, performed unit-testing, and documented their usage as a part of SDK.</h6>
+              </li>
+              <li>
+                <h6>Quantified blurriness and overexposure utilizing classical CV algorithms in scikit-learn for infra-red image classification and fps improvement; deployed optimized machine learning pipeline in C++ to the propriety depth-detection pipeline.</h6>
+              </li>
+              <li>
+                <h6>Implemented custom RANSAC for tray-detection and DBSCAN clustering algorithm for object-measurements from 3D Point-cloud.</h6>
+              </li>
+            </ul>
           </div>
+
+          <!-- TSA -->
           <button type="button" class="collapsible">
             <h4>
               Third Space Auto
@@ -281,12 +305,45 @@
             </h4>
           </button>
           <div class="content">
-            <p>I internet at NVIDIA in the TensorRT team from </p>
+            <ul>
+              <li>
+                <h6>Implemented drop location calculation algorithm by considering payload parameters and wind resistance for fire-fighting VTOL using ardupilot stack; achieved repeatability and accuracy of +/-0.5m at UAV velocity of 10m/s and altitude of 50m.</h6>
+              </li>
+              <li>
+                <h6>Estimated extrinsic parameters of camera mounted on UAV using Perspective-n-Point algorithm using April tags; implemented UAV pose estimation and position control algorithm in C++ to precisely land the UAV at static target location.</h6>
+              </li>
+              <li>
+                <h6>Collaborated in architecting a CNN for object recognition on custom dataset of grocery products with 76% mAP; implemented config-based hyperparameter tuning; deployed the model in production to generate consumer buying statistics.</h6>
+              </li>
+            </ul>
           </div>
           
+          <!-- BAJAJ -->
+          <button type="button" class="collapsible">
+            <h4>
+              Bajaj Auto Ltd
+              <span style="font-style: italic; color: #7D8410;">
+                Computer Vision Engineer
+              </span>
+              <span style="font-style: italic;">
+                (15th May 22 - 26th Aug 23)
+              </span>
+              <span style="float:right;">
+                <img src="assets\img\portfolio\bajaj_logo.png" alt="opps" width="30" height="30"> <!-- 1200 , 675 -->
+              </span>
+            </h4>
+          </button>
           <div class="content">
-            <p>I internet at NVIDIA in the TensorRT team from </p>
+            <ul>
+              <li>
+                <h6>Spear-headed GUI development of in-house “IndustrialCam” with PyQt5 for assembly inspections and object pose-estimation for robot guidance.</h6>
+              </li>
+              <li>
+                <h6>Collaborated in architecting a CNN for object recognition on custom dataset of grocery products with 76% mAP; implemented config-based hyperparameter tuning; deployed the model in production to generate consumer buying statistics.</h6>
+              </li>
+            </ul>
           </div>
+          
           <button type="button" class="collapsible">
             <h4>
               Larsen & Tubro
@@ -304,8 +361,6 @@
           <div class="content">
             <p>I internet at NVIDIA in the TensorRT team from </p>
           </div>
-          
-
         </div>
       </div>
 
@@ -331,7 +386,6 @@
               <li data-filter=".filter-drones">Drones</li>
               <li data-filter=".filter-navigation">Navigation</li>
               <li data-filter=".filter-manipulation">Manipulation</li>
-              <li data-filter=".filter-learning">Learning</li>
               <li data-filter=".filter-learning">Learning</li>
             </ul>
           </div>
