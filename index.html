@@ -51,9 +51,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#Photo Gallery">Professional Experience</a></li>
+          <li><a class="nav-link  scrollto" href="#Experience">Experience</a></li>
           <li><a class="nav-link  scrollto" href="#portfolio">Projects</a></li>
-          <li><a class="nav-link  scrollto" href="#Photo Gallery">Photo Gallery</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -89,8 +88,8 @@
         <br>
         <br>
         <h1>I'm <span class="typed"
-            data-typed-items="Jigar Patel, A Roboticist, A Software Developer, An Athlete, Pianist"></span></h1>
-        <p>Roboticist, Software Developer, Competitive coder, Athelete</p>
+            data-typed-items="Jigar Patel, A Roboticist, A Software Developer, Competitive coder, Innovative thinker"></span></h1>
+        <p>Roboticist, Software Developer, Competitive coder, Innovative thinker</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="#"><i class="bi bi-facebook"></i></a></li>
@@ -104,7 +103,7 @@
   <!-- End Hero -->
 
   <main id="main">
-
+    <!-- TODO : Update colour selection -->
     <!-- ======= About Section ======= -->
     <div id="about" class="paddsection">
       <div class="container">
@@ -131,14 +130,15 @@
               <p class="separator">I like playing badminton and table-tennis. I like challenging myself with physical
                 and mental challenges.</p>
               <p class="separator">Past 9 years I have been working in the field of robotics and have been actively
-                doing MY BIT to bring the age of robots closer. Have a look at my projects below.</p>
+                doing <strong>MY BIT</strong> to bring the age of robots closer. Have a look at my projects below.</p>
             </div>
           </div>
         </div>
       </div>
     </div><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Topics Section ======= -->
+    <!-- TODO : Update logos -->
     <div id="services">
       <div class="container">
 
@@ -188,13 +188,20 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-calendar4-week"></i>
+                <span>C++ Software</span>
+              </div>
+            </div><!-- End testimonial item -->
+
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
 
-    </div><!-- End Services Section -->
+    </div><!-- End Topics Section -->
 
     <!-- ======= Professional Experience Section ======= -->
     <div id="portfolio" class="paddsection">
@@ -307,13 +314,37 @@
           <div class="content">
             <ul>
               <li>
-                <h6>Implemented drop location calculation algorithm by considering payload parameters and wind resistance for fire-fighting VTOL using ardupilot stack; achieved repeatability and accuracy of +/-0.5m at UAV velocity of 10m/s and altitude of 50m.</h6>
+                <h4 class="subproject"> Fire-fighting drones – Payload drop Module simulation <strong> Gazebo | ROS | Ardupilot </strong> </h4>
+                <ul>
+                  <li>
+                    <h6>Implemented drop location calculation algorithm by considering payload parameters and wind resistance for fire-fighting VTOL using ardupilot stack; achieved repeatability and accuracy of +/-0.5m at UAV velocity of 10m/s and altitude of 50m.</h6>
+                  </li>
+                  <li>
+                    <h6>Achieved repeatability and accuracy of 0.5m from the desired target location at UAV velocity of 10m/s and flying altitude of 50m.</h6>
+                  </li>
+                </ul>
               </li>
               <li>
-                <h6>Estimated extrinsic parameters of camera mounted on UAV using Perspective-n-Point algorithm using April tags; implemented UAV pose estimation and position control algorithm in C++ to precisely land the UAV at static target location.</h6>
+                <h4 class="subproject"> Bydrone project - Precision Landing for UAVs <strong> C++|OpenCV |Gazebo | ROS | Pixhawk| PX4 flight stack </strong> </h4>
+                <ul>
+                  <li>
+                    <h6 class="subsubproject">Estimated extrinsic parameters of the camera mounted on UAV using the Perspective-n-Point algorithm with waypoints detected from April tags.</h6>
+                  </li>
+                  <li>
+                    <h6>Implemented UAV pose estimation and position control algorithm to land the UAV at a static target location.</h6>
+                  </li>
+                </ul>
               </li>
               <li>
-                <h6>Collaborated in architecting a CNN for object recognition on custom dataset of grocery products with 76% mAP; implemented config-based hyperparameter tuning; deployed the model in production to generate consumer buying statistics.</h6>
+                <h4 class="subproject"> Multi-Camera Human Tracking for security <strong> |Python | OpenCV |Tensorflow |Keras | PIL| Numpy </strong> </h4>
+                <ul>
+                  <li>
+                    <h6>Implemented a combined HSV histogram-based object tracking and a fully convolutional Siamese network for online training and tracking of pedestrians passing through multiple cameras.</h6>
+                  </li>
+                  <li>
+                    <h6>Improved tracking accuracy by handling occlusion and retracking in <>70% cases.</h6>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -336,10 +367,54 @@
           <div class="content">
             <ul>
               <li>
-                <h6>Spear-headed GUI development of in-house “IndustrialCam” with PyQt5 for assembly inspections and object pose-estimation for robot guidance.</h6>
+                <h4 class="subproject"> Robotic transmission assembly <strong> |Universal robot programming |Optoforce F/T sensor  </strong> </h4>
+                <ul>
+                  <li>
+                    <h6>Developed an algorithm for dowel insertion on crankcase base and crankcase insertion through shafts using force and torque feedback along 3-axis with Optoforce F/T sensor.</h6>
+                  </li>
+                  <li>
+                    <h6>Calculated offsets using axis-transformation between 2 differently-oriented universal robots and implemented synchronized bolt insertion and bolt tightening by 2 robots.</h6>
+                  </li>
+                  <li>
+                    <h6>Programmed for sequencing logic to optimize cycle time ensuring collision free operation of robots.</h6>
+                  </li>
+                </ul>
               </li>
               <li>
-                <h6>Collaborated in architecting a CNN for object recognition on custom dataset of grocery products with 76% mAP; implemented config-based hyperparameter tuning; deployed the model in production to generate consumer buying statistics.</h6>
+                <h4 class="subproject"> IndustrialCam – Assembly inspection and Robot Guidance<strong> | Python | Kivy | OpenCV | </strong> </h4>
+                <ul>
+                  <li> 
+                    <h6>Implemented the OpenCV features viz. line, circle and corner detection for assembly inspections and implemented object recognition using ORB feature matcher to estimate object pose for robot guidance.</h6>
+                  </li>
+                  <li>
+                    <h6>Programmed robust algorithms on a low-cost web-camera (5x cheaper) as an alternative to commercial smart cameras and saved ~$4500 per deployment.</h6>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4 class="subproject">	Camshaft load- unload automation <strong> |Python |OpenCV |Universal Robots| Raspberry Pi </strong> </h4>
+                <ul>
+                  <li> 
+                    <h6>Estimated the angles of lobes of camshaft with HSV colour space based contour extraction using OpenCV.</h6>
+                  </li>
+                  <li>
+                    <h6>Logic development for gripping and camshaft aligning according to the angle of lobes for accurate placement in fixture of Bearing Press Machine.</h6>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4 class="subproject"> Vehicle inventory management system <strong> |UWB Beacon | Python| MS Excel - Pivot tables & Macros </strong> </h4>
+                <ul>
+                  <li>
+                    <h6>Conceptualized and implemented a novel approach to perform indoor navigation using UWB Beacons to track labours and thereby estimating Vehicle inventory using feedback from Android App.</h6>
+                  </li>
+                  <li>
+                    <h6>Performed data-analysis to analyze live dispatch trends dealer-wise, SKU-wise and region wise and developed logic to dynamically reallocate the incoming SKU’s based on these trends.</h6>
+                  </li>
+                  <li>
+                    <h6>Developed a mathematical model to modify storage of vehicles for optimization of travel times for vehicle transfer thereby reducing 6 manpower/day.</h6>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -359,7 +434,17 @@
             </h4>
           </button>
           <div class="content">
-            <p>I internet at NVIDIA in the TensorRT team from </p>
+            <ul>
+              <li>
+                <h6>Studied the various stresses developed in piping using CAESAR 2.0.</h6>
+              </li>
+              <li>
+                <h6>Calculated the thickness for safer design of pipes and material selection for piping.</h6>
+              </li>
+              <li>
+                <h6>Studied the parameters for organizing the layout of the piping plant and modelled the layout using MicroStation.</h6>
+              </li> 
+            </ul>            
           </div>
         </div>
       </div>
@@ -476,6 +561,33 @@
       </div>
 
     </div><!-- End Portfolio Section -->
+
+    <!-- ======= Achievements Section ======= -->
+    <div id="portfolio" class="paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Achievements</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="companies">
+          <!-- RC1 -->
+          <ul>
+            <h6>Rated in <strong>RC1</strong> (Ranking Cluster 1) <strong>(Top 5%)</strong> in Bajaj Auto Limited in GTE batch among 53 candidates.</h6>
+            <h6>Runner’s up at Ideathon organised by Fidelity Investments, 2015 and bagged a total award of <strong>~1,000 USD</strong>. </h6>
+            <h6>Runner’s up among 30 teams in Perfect Machine Competition at Engineer, NITK Techfest, 2015.</h6>
+            <h6>Won 3rd Prize among 65 teams in Rushhour competition at Pragyan, NIT Trichy Techfest, 2016.</h6>
+            <h6>Merit Scholarship holder in B.Tech at National Institute of Technology Karnataka, Surathkal.</h6>
+          </ul>
+        </div>
+          
+        </div>
+      </div>
+
+    </div>
+    <!-- End Professional Experience Section -->
 
     <!-- ======= Contact Section ======= -->
     <div id="contact" class="paddsection">

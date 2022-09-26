@@ -36,3 +36,11 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+h4.subproject {
+  padding: 1px 18px;
+  /* display: none; */
+  /* overflow: hidden; */
+  background-color: #c0b5b5;
+  text-colour: #000000;
+}
