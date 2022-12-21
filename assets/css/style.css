@@ -11,7 +11,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -586,6 +586,67 @@ p {
   text-align: left;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  Experience
+/*-----------------------------------------------------------------------------------*/
+#companies_buttton {
+  background-color: #ffffff; /* #eaf0ce; */
+  /* color: #444; */
+  border-color: #a58023;
+  color: #eaf0ce;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  vertical-align: bottom;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 1px 18px;
+  display: none;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+}
+
+#companies_content {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  color: #000000;
+}
+
+h4.subproject {
+  padding: 5px 5px;
+  /* display: none; */
+  /* overflow: hidden; */
+  /* background-color: #eeeeff; */
+  border-color: #000000;
+  border-bottom: 3px solid #aaa;
+}
+
+/*--------------------------------------------------------------
+# Achievements
+--------------------------------------------------------------*/
+
+.achievements {
+  padding: 5px 5px;
+  font-size: medium;
+}
+
+li.achievements {
+  margin: 5px;
+  color: #000000;
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -966,7 +1027,7 @@ p {
 }
 
 .container-main .block-main .content-main {
-  background: #fff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   display: inline-block;
   width: 100%;
 }
